@@ -4,7 +4,7 @@ const FALLBACK_PRODUCTS = [
     id: 1,
     name: "Наушники FlowBuds Pro",
     price: 7990,
-    img: "../images/AdobeStock_1196473656.jpeg",
+    img: "./images/AdobeStock_1196473656.jpeg",
     description:
       "Беспроводные наушники с активным шумоподавлением. 15 часов работы.",
     category: "Аудио",
