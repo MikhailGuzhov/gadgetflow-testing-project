@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GadgetFlow</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav-wrap">
+        <a class="logo" href="index.html">GadgetFlow</a
+        ><input type="search" id="search-input" placeholder="Я ищу..." /><select
+          id="category-filter"
+        >
+          <option value="">Все категории</option>
+          <option value="Аудио">Аудио</option>
+          <option value="Носимые">Носимые</option>
+          <option value="Аксессуары">Аксессуары</option></select
+        ><a class="cart-link" href="cart.html"
+          >Корзина <span id="cart-count">0</span></a
+        >
+      </div>
+    </header>
+    <main class="container">
+      <h1>Корзина</h1>
+      <table id="cart-table">
+        <thead>
+          <tr>
+            <th>Товар</th>
+            <th>Кол-во</th>
+            <th>Цена</th>
+            <th>Сумма</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <p id="total"></p>
+      <a class="btn primary" href="checkout.html">Перейти к оформлению</a>
+    </main>
+    <footer class="footer">
+      <div class="container"><p>© 2025 GadgetFlow</p></div>
+    </footer>
+  </body>
+</html>
