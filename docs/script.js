@@ -13,7 +13,7 @@ const FALLBACK_PRODUCTS = [
     id: 2,
     name: "Смарт‑часы WaveTrack 2",
     price: 14990,
-    img: "../images/AdobeStock_1196473656.jpeg",
+    img: "images/AdobeStock_1196473656.jpeg",
     description: "Водонепроницаемые GPS‑часы с пульсоксиметром.",
     category: "Носимые",
   },
